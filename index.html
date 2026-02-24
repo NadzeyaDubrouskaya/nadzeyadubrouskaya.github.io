@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Senior Java Developer | CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/print.css" media="print" />
+</head>
+
+<body class="theme-dark">
+  <main class="page">
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-toggle__icon">🌙</span>
+      <span class="theme-toggle__label">Night</span>
+    </button>
+    <aside class="sidebar">
+      <div class="avatar">
+        <img src="assets/img/profile.jpeg" alt="Portrait" />
+        <div>
+          <h1>Nadzeya Dubrouskaya</h1>
+          <p>Senior Java Developer</p>
+        </div>
+      </div>
+
+      <section id="contact-section">
+        <h2>Contact</h2>
+        <ul class="list">
+          <li><span>Email</span><a href="mailto:nadzeya.dubrouskaya@gmail.com">nadzeya.dubrouskaya@gmail.com</a></li>
+          <li><span>Location</span>Wroclaw, Poland</li>
+          <li class="linkedin-item"><span>LinkedIn</span><a
+              href="https://www.linkedin.com/in/nadzeya-dubrouskaya-7aab12110" target="_blank"
+              rel="noreferrer">/nadzeyadubrouskaya</a></li>
+          <li><span>GitHub</span><a href="https://github.com/NadzeyaDubrouskaya" target="_blank"
+              rel="noreferrer">@NadzeyaDubrouskaya</a></li>
+        </ul>
+      </section>
+
+      <section id="skills-section">
+        <h2>Skills</h2>
+        <div class="pill-grid">
+          <span class="skill-pill" data-level="Proficiency: Advanced" tabindex="0">Java 17+</span>
+          <span class="skill-pill" data-level="Proficiency: Advanced" tabindex="0">Spring Framework / Spring Boot</span>
+          <span class="skill-pill" data-level="Proficiency: Advanced" tabindex="0">JPA / Hibernate</span>
+          <span class="skill-pill" data-level="Proficiency: Advanced" tabindex="0">MySQL / PostgreSQL / MongoDB</span>
+          <span class="skill-pill" data-level="Proficiency: Advanced" tabindex="0">REST &amp; SOAP Integrations</span>
+          <span class="skill-pill" data-level="Proficiency: Advanced" tabindex="0">Legacy Refactoring &amp;
+            Optimization</span>
+          <span class="skill-pill" data-level="Proficiency: Advanced" tabindex="0">Production Support /
+            Troubleshooting</span>
+          <span class="skill-pill" data-level="Proficiency: Advanced" tabindex="0">Code Review &amp; Mentoring</span>
+          <span class="skill-pill" data-level="Proficiency: Intermediate" tabindex="0">Unit &amp; Automation
+            Testing</span>
+          <span class="skill-pill" data-level="Proficiency: Intermediate" tabindex="0">Feature Estimation &amp;
+            Planning</span>
+          <span class="skill-pill" data-level="Proficiency: Intermediate" tabindex="0">Technical Documentation</span>
+          <span class="skill-pill" data-level="Proficiency: Intermediate" tabindex="0">JSP / Thymeleaf / HTMX</span>
+          <span class="skill-pill" data-level="Proficiency: Basics" tabindex="0">JavaScript (ES6+) / TypeScript</span>
+          <span class="skill-pill" data-level="Proficiency: Basics" tabindex="0">React / Svelte</span>
+          <span class="skill-pill" data-level="Proficiency: Basics" tabindex="0">Docker / Kubernetes</span>
+          <span class="skill-pill" data-level="Proficiency: Basics" tabindex="0">AWS CloudWatch / DynamoDB</span>
+          <span class="skill-pill" data-level="Proficiency: Basics" tabindex="0">AWS EC2 / S3 / Lambda</span>
+          <span class="skill-pill" data-level="Proficiency: Basics" tabindex="0">CI/CD Pipelines</span>
+        </div>
+      </section>
+
+      <section id="toolbox-section">
+        <h2>Toolbox</h2>
+        <ul class="list compact">
+          <li>Maven, Flyway, Tomcat</li>
+          <li>AWS (EC2, S3, Lambda, DynamoDB, CloudWatch)</li>
+          <li>Docker, Kubernetes (operational context)</li>
+          <li>CI/CD pipelines (Azure DevOps)</li>
+          <li>JasperReports, iText, Apache FOP</li>
+          <li>Selenium WebDriver, IntelliJ IDEA, Visual Studio Code</li>
+          <li>Git (Bitbucket, GitHub), Jira, Confluence, Miro</li>
+        </ul>
+      </section>
+
+      <section id="languages-section">
+        <h2>Languages</h2>
+        <ul class="list compact">
+          <li>English — Fluent</li>
+          <li>Ukrainian — Fluent</li>
+          <li>Polish — Conversational</li>
+          <li>Belarusian — Conversational</li>
+        </ul>
+      </section>
+
+      <section id="interests-section">
+        <h2>Interests</h2>
+        <ul class="list compact">
+          <li>3D modeling, digital art and animation (Blender, Procreate, Krita, Photoshop)</li>
+        </ul>
+      </section>
+
+      <section id="education-print-section" class="print-only">
+        <h2>Education</h2>
+        <ul class="list compact">
+          <li><strong>Diploma in Computer Programming</strong> · Minsk State College of Electronics/Information
+            Technology · 2011</li>
+        </ul>
+      </section>
+
+      <button class="download-cv" id="print-cv" type="button" aria-label="Download CV as PDF">
+        Download PDF
+      </button>
+    </aside>
+
+    <section class="content">
+      <section class="hero" id="hero-section">
+        <p class="eyebrow">Java Development · QA Foundations · 10+ years in IT</p>
+        <h2>Building complex, stable, scalable Java systems</h2>
+      </section>
+
+      <section id="summary-section">
+        <div class="section-heading">
+          <h3>Summary</h3>
+        </div>
+        <p>Experienced in long-lived enterprise environments where architectural trade-offs unfold over time, applying
+          those lessons to improve system stability, scalability, and maintainability. Strong in production debugging
+          and root-cause analysis, frequently resolving complex client-facing issues and implementing monitoring and
+          preventive safeguards to avoid recurrence. Comfortable navigating legacy codebases with little or no
+          documentation, systematically building technical documentation and knowledge-sharing practices that improve
+          maintainability and support long-term team autonomy.</p>
+      </section>
+
+      <section id="experience-section">
+        <div class="section-heading">
+          <h3>Experience</h3>
+        </div>
+
+        <div class="card">
+          <header>
+            <div>
+              <h4>Senior Java Developer · Under NDA</h4>
+              <p>Retail and Consumer Goods · 2023 - current time</p>
+            </div>
+            <span class="tag">Enterprise Data Platform</span>
+          </header>
+          <div class="tech-stack">
+            <span>Java 17</span>
+            <span>Spring Framework</span>
+            <span>JPA/Hibernate</span>
+            <span>JSP</span>
+            <span>Maven</span>
+            <span>MySQL</span>
+            <span>MongoDB</span>
+            <span>AWS (EC2, Lambda, S3)</span>
+            <span>JasperReports</span>
+            <span>Selenium</span>
+          </div>
+          <ul>
+            <li>Owned end-to-end delivery of AI Engine integration processing flow, from architectural design to
+              implementation in production.</li>
+            <li>Designed and implemented cross-system state management and synchronization logic for an enterprise
+              automotive data platform, ensuring deterministic transitions and reliable integrations (REST/SOAP,
+              Salesforce, bulk data processing).</li>
+            <li>Estimated, planned, and implemented high-impact features for a large automotive data platform handling
+              bulk import/export, reporting, Salesforce and other third-party integrations over REST and SOAP
+              protocols.</li>
+            <li>Refactored critical legacy modules, resolved complex production issues, and improved throughput for
+              data-intensive workflows.</li>
+            <li>Performed in-depth analysis of thread usage and memory consumption, then implemented targeted
+              optimizations that reduced contention, stabilized peak-load behavior, and improved runtime efficiency.
+            </li>
+            <li>Expanded automated test coverage (unit and integration) to raise release confidence on a multi-system,
+              enterprise-scale product.</li>
+            <li>Supported production observability using AWS CloudWatch for log analysis and debugging, and maintained
+              working familiarity with Docker and Kubernetes through cross-team integration and deployment workflows.
+            </li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <header>
+            <div>
+              <h4>Support Engineer to Senior Java Developer · Under NDA</h4>
+              <p>Facilities Services, Water/Air Compliance · 2020 - 2023</p>
+            </div>
+            <span class="tag">Legacy CRM Modernization</span>
+          </header>
+          <div class="tech-stack">
+            <span>Java 8/17</span>
+            <span>Spring Framework</span>
+            <span>JPA/Hibernate</span>
+            <span>Maven</span>
+            <span>MySQL</span>
+            <span>PostgreSQL</span>
+            <span>Svelte</span>
+            <span>AngularJS</span>
+            <span>Thymeleaf</span>
+            <span>JasperReports</span>
+            <span>AWS (EC2, S3)</span>
+          </div>
+          <ul>
+            <li>Started as a support engineer for a legacy internal CRM used to manage building security audits and
+              compliance processes, then contributed to its evolution into a core operational platform.</li>
+            <li>Refactored and stabilized Java monolith, resolving production incidents and improving
+              reliability, performance, and maintainability.</li>
+            <li>Gradually refactored and modernized critical components, strengthening performance and maintainability
+              while expanding product capabilities and implementing new features</li>
+            <li>Designed and implemented business features supporting end-to-end inspection workflows, including route
+              planning capabilities for field engineers.</li>
+            <li>Implemented a dynamic report generation system with complex layouts for signed customer documents and
+              operational reporting.</li>
+            <li>Helped scale the project from a single-developer setup to a growing team environment through shared
+              practices and collaborative delivery.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <header>
+            <div>
+              <h4>Senior Java Developer · Under NDA</h4>
+              <p>Economics · 2019 - 2020</p>
+            </div>
+            <span class="tag">Business Efficiency Analytics</span>
+          </header>
+          <div class="tech-stack">
+            <span>Java 17</span>
+            <span>Spring Boot</span>
+            <span>JPA/Hibernate</span>
+            <span>MySQL</span>
+            <span>React</span>
+            <span>Azure</span>
+            <span>Azure DevOps</span>
+            <span>Azure AD B2C</span>
+          </div>
+          <ul>
+            <li>Estimated, planned, and delivered features for a platform that calculates business efficiency by free
+              and paid tiers and generates responsive visual outputs.</li>
+            <li>Provided bug fixing and frontend development support to ensure stable cross-team delivery.</li>
+            <li>Set up production environments for backend and frontend and implemented a release pipeline in Azure
+              DevOps.</li>
+            <li>Mentoring and knowledge transfer, preparation of technical documentation including the infrastracture
+              descriptions</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <header>
+            <div>
+              <h4>Java Developer / Support Engineer · Under NDA</h4>
+              <p>Books, Magazines and Newspapers · 2018 - 2019</p>
+            </div>
+            <span class="tag">Content and Subscription Platform</span>
+          </header>
+          <div class="tech-stack">
+            <span>Java 7</span>
+            <span>JPA</span>
+            <span>Apache FOP</span>
+            <span>Tomcat</span>
+            <span>MySQL</span>
+          </div>
+          <ul>
+            <li>Maintained and enhanced a content and subscription platform, implemented new features, migrated legacy
+              libraries, and provided client-facing technical support.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="earlier-career-section">
+        <div class="section-heading section-heading--expandable">
+          <h3>Earlier Career</h3>
+          <button class="section-toggle" id="earlier-career-toggle" type="button" aria-expanded="false"
+            aria-controls="earlier-career-content" aria-label="Expand Earlier Career" title="Expand Earlier Career">
+            <span class="section-toggle__icon" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <div class="expandable-content is-collapsed" id="earlier-career-content">
+
+        <div class="card">
+          <header>
+            <div>
+              <h4>Software Developer in Test</h4>
+              <p>Gaming · Feb 2018 - Nov 2018</p>
+            </div>
+            <span class="tag">Game Engine Test Platform</span>
+          </header>
+          <div class="tech-stack">
+            <span>TypeScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Material UI</span>
+          </div>
+          <ul>
+            <li>Developed and maintained API automated tests for a game engine, and contributed to a client-side
+              web-based
+              test framework used for running tests across devices and generating reports.</li>
+            <li>Performed code review and assessed unit test coverage and documentation quality.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <header>
+            <div>
+              <h4>QA Automation Engineer</h4>
+              <p>Enterprise Software · Jan 2017 - Feb 2018</p>
+            </div>
+            <span class="tag">Java Test Automation</span>
+          </header>
+          <div class="tech-stack">
+            <span>Java</span>
+            <span>Selenium WebDriver</span>
+            <span>SoapUI</span>
+          </div>
+          <ul>
+            <li>Built and maintained a Java enterprise application for automated system testing, including test case
+              authoring, framework support, and quality reporting against the main development branch.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <header>
+            <div>
+              <h4>Software QA Engineer</h4>
+              <p>Enterprise Software · Oct 2012 - Jan 2017</p>
+            </div>
+            <span class="tag">Enterprise QA &amp; Automation</span>
+          </header>
+          <div class="tech-stack">
+            <span>Java</span>
+            <span>Selenium</span>
+            <span>Web Services</span>
+            <span>Load Testing</span>
+          </div>
+          <ul>
+            <li>Covered the full testing lifecycle — functional, integration, load, and automated testing — across
+              complex
+              enterprise systems with multiple dependent components.</li>
+            <li>Led problem localisation across distributed system components, working with logging systems and
+              deployment
+              pipelines to identify root causes rather than surface-level effects.</li>
+            <li>Managed task allocation and prioritisation within a 3-person team; mentored new team members and
+              produced
+              training documentation for system components.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <header>
+            <div>
+              <h4>QA Engineer</h4>
+              <p>Software · Oct 2011 - Oct 2012</p>
+            </div>
+            <span class="tag">Functional &amp; Automation QA</span>
+          </header>
+          <div class="tech-stack">
+            <span>Test Automation</span>
+            <span>Cross-browser Testing</span>
+          </div>
+          <ul>
+            <li>Performed functional, GUI, usability, and cross-browser testing; created automated test cases and
+              delivered quality reports in direct communication with the customer and development team.</li>
+          </ul>
+        </div>
+
+        </div>
+      </section>
+
+      <section id="education-section">
+        <div class="section-heading">
+          <h3>Education</h3>
+        </div>
+        <div class="card compact-card">
+          <p><strong>Diploma in Computer Programming</strong> · Minsk State College of Electronics/Information
+            technology · 2011</p>
+        </div>
+      </section>
+    </section>
+  </main>
+  <script src="js/cv-controls.js"></script>
+</body>
+
+</html>
